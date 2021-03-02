@@ -5,7 +5,9 @@
 ![Workflow result](https://github.com/mantas84/BestFriend/workflows/Check/badge.svg)
 
 
-## :scroll: #1 AndroidDevChallenge. Puppy adoption app sample.
+## :scroll:
+ #1 AndroidDevChallenge.
+ Puppy adoption app sample.
 <!--- Describe your app in one or two sentences -->
 
 
@@ -13,13 +15,19 @@
 <!--- Optionally point readers to interesting parts of your submission. -->
 <!--- What are you especially proud of? -->
 A sample of puppy adoption app.
-Uses:
-Compose,
-[navigation component](https://developer.android.com/jetpack/compose/navigation),
-[accompanist](https://github.com/chrisbanes/accompanist) for Image loading with Coil,
 
-- [freepik] - Used paw image from freepik.com.
-[freepik]: <https://www.freepik.com>
+Uses:
+
+Compose,
+
+[navigation component](https://developer.android.com/jetpack/compose/navigation),
+
+[accompanist](https://github.com/chrisbanes/accompanist) for Image loading with Coil.
+
+[freepik](https://www.freepik.com) - Used paw image from freepik.com.
+
+Pictures of dogs came from [Dog API](https://dog.ceo/dog-api/)
+
 
 
 ## :camera_flash: Screenshots
