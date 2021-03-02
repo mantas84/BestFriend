@@ -53,7 +53,7 @@ fun dogDetails(dog: Dog) {
         Column(Modifier.verticalScroll(rememberScrollState())) {
             Box(
                 modifier = Modifier
-                    .clip(RoundedCornerShape(10.dp))
+                    .clip(RoundedCornerShape(0.dp, 0.dp, 32.dp, 32.dp))
                     .background(Color.Green)
             ) {
                 CoilImage(
