@@ -13,13 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge.ui.theme
+package com.example.androiddevchallenge.details
 
-import androidx.compose.ui.graphics.Color
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
+import com.example.androiddevchallenge.Dog
+import com.example.androiddevchallenge.Dogs
 
-val purple200 = Color(0xFFBB86FC)
-val purple500 = Color(0xFF6200EE)
-val purple700 = Color(0xFF3700B3)
-val teal200 = Color(0xFF03DAC5)
+@Composable
+@Preview
+fun dogDetailsScreenPreview(dogId: Int = 0) {
+    dogDetailsScreen(dogId)
+}
 
-val greyTransparent = Color(0x33888888)
+@Composable
+@Preview
+fun dogDetailsPreview(dog: Dog = Dogs.findDog(0)) {
+    dogDetails(dog)
+}
